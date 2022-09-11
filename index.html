@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Máster en CSS</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
 
 </head>
 <body>
@@ -35,10 +36,10 @@
                 <a href="">Requerimientos</a>
             </li>
             <li>
-                <a href="">Instructor</a>
+                <a href="">Lenguajes</a>
             </li>
             <li>
-                <a href="">Reseñas</a>
+                <a href="">Frameworks</a>
             </li>
             <li>
                 <a href="">Blog</a>
@@ -49,8 +50,156 @@
         </ul>
     </nav>
     <!-- Fin del menú -->
-    <main>
 
+    <main>
+        <div class="main__wraper">
+            <aside class="left">
+                <section class="left__section login">
+                    <h3>Entrar a la web</h3>
+                    <form>
+                        <label >Usuario:</label>
+                        <input type="text">
+                        <label >Contraseña</label>
+                        <input type="text">
+
+                        <input type="submit" value="Entrar" class="sectionButton">
+                    </form>
+                    <a href="">Zona de alumnos</a>
+                    <a href="">Zona de profesores</a>
+                    <a href="">Acceso a certificaciones</a>
+
+                </section>
+                <section class="left__section aula1">
+
+                    <h3>Aula virtual 1</h3>
+                    <form>
+                        <label >Usuario:</label>
+                        <input type="text">
+                        <label >Contraseña</label>
+                        <input type="text">
+
+                        <input type="submit" value="Entrar" class="sectionButton">
+                    </form>
+
+                </section>
+                <section class="left__section aula2">
+
+                    <h3>Aula virtual 2</h3>
+                    <form>
+                        <label >Usuario:</label>
+                        <input type="text">
+                        <label >Contraseña</label>
+                        <input type="text">
+
+                        <input type="submit" value="Entrar" class="sectionButton">
+                    </form>
+
+                </section>
+
+                <section class="left__section enlaces">
+                    <h3>Enlaces de interés</h3>
+                    <ul class="enlaces__container">
+                        <li><a href="">Master en JavaScript</a></li>
+                        <li><a href="">Master en PHP</a></li>
+                        <li><a href="">Master en Frameworks</a></li>
+                        <li><a href="">Master en webs fullstack</a></li>
+                        <li><a href="">Platzi.com</a></li>
+                    </ul>
+                </section>
+            </aside>
+            
+            <section class="mainContent">
+                <article class="article frontNews">
+                    <h2 class="article__title">Noticias front-end</h2>
+                    <div class="article__new">
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+                    </div>
+                </article>
+
+                <article class="article backNews">
+                    <h2 class="article__title">Noticias back-end</h2>
+                    <div class="article__new">
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+                    </div>
+                </article>
+
+                <article class="article instructortNews">
+                    <h2 class="article__title">Noticias del instructor</h2>
+                    <div class="article__new">
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+
+                        <p>
+                            <span>📰</span> <a href="">Titulo de la entrada</a> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem autem beatae accusantium ipsam blanditiis iste corrupti nobis repellendus recusandae amet!
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </div>
     </main>
 
 </body>
